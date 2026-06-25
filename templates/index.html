@@ -2,7 +2,13 @@
 
 <html>
 <head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+
     <title>💙 Arcane ⏳ </title>
+
 </head>
 
 
@@ -106,7 +112,7 @@
         de tiro. Ela é uma aliada de Vi e tem um papel importante na luta contra o crime
         em Piltover.
     </p>
-<div class="caintlyn card">
+<div class="caitlyn card">
      <div class="galeria">
      <div class="imagens">
     <img src="https://i.pinimg.com/736x/25/ea/a5/25eaa533123e501a0718504f473be33b.jpg"
@@ -128,10 +134,7 @@
         tecnológicas avançadas. Ele é um dos líderes da academia de Piltover e tem um
         papel importante na história.
     </p>
-    <div>
-
-    </div>
-<div class="heimerdinger class">
+<div class="heimerdinger card">
 <div class="galeria">
      <div class="imagens">
     <img src="https://i.pinimg.com/736x/e4/c3/4d/e4c34d7173f4cb33d7b93b5fa3118f4f.jpg"
@@ -153,7 +156,9 @@
         Viktor - Um cientista visionário, conhecido por sua busca por conhecimento e
         poder. Ele é um dos antagonistas da série e tem uma história complexa.
     </p>
-
+<div class="viktor card">
+<div class="galeria">
+     <div class="imagens">
     <img src="https://i.pinimg.com/736x/5e/d1/5a/5ed15a502a168ce033b0185a51f877b5.jpg"
          alt="Viktor"
          width="200"
@@ -163,7 +168,9 @@
          alt="Viktor"
          width="200"
          height="200">
-
+     </div>
+</div>
+</div>
     <h2>⚡ Jayce 🛠️</h2>
 
     <p>
@@ -171,7 +178,9 @@
         tecnológicas inovadoras. Ele é um dos personagens principais da série e tem
         um papel importante na história.
     </p>
-
+<div class="jayce card">
+     <div class="galeria">
+          <div class="imagens">
     <img src="https://i.pinimg.com/736x/e2/4f/f3/e24ff34f1665e893dcdf102bc8d61cf2.jpg"
          alt="Jayce"
          width="200"
@@ -181,21 +190,23 @@
          alt="Jayce"
          width="200"
          height="200">
-
+          </div>
+     </div>
+</div>
 </body>
 
 <style>
 h2 {
+     font-family: 'Cinzel',serif;
     height: 50px;
     width: 200px;
-    color: #1837e2;
-    font-family: Arial, sans-serif;
+
 }
 
 p {
-    font-size: 18px;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
+color: aliceblue;
+font-family: 'Cinzel', serif;
+font-size: 18px;
 }
 
 body {
@@ -203,8 +214,24 @@ body {
     background-position: center;
     margin: 0;
     padding: 20px;
-}
+    background-size: cover;
+    background-attachment: fixed;
 
+    font-family: 'cinzel', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.card {
+    border: 3px solid white;
+    margin-bottom: 20px;
+   transition: 0.3s;
+   box-shadow: 0.4px 15px rgba(0, 0, 0, 0.5);
+}
+  .card:hover {
+     transform: scale(1.03);
+  }
 .jinx {
      display: inline-block;
     background: rgba(0, 81, 233, 0.85);
@@ -223,18 +250,31 @@ body {
      padding: 10px;
      border-radius: 8px;
 }
-.caintlyn {
+.caitlyn {
      display: inline-block;
      background-color: #1837e2;
      padding: 10px;
      border-radius: 8px;
 }
 .heimerdinger {
-
      display: inline-block;
      background-color: bisque;
      padding: 10px;
      border-radius:  8px;
+}
+.viktor {
+     display: inline-block;
+    background-color: #1837e2;
+    padding: 10px;
+    border-radius: 8px;
+}
+.jayce {
+
+      display: inline-block;
+      background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 8px;
+
 }
 .galeria {
      display: inline-block;
@@ -244,10 +284,7 @@ body {
 .galeria img {
 border-radius: 5px;
 }
-
 .imagens {
-
-
      display: flex;
      gap: 10px;
 }
