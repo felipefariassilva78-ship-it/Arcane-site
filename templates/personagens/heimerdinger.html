@@ -1,0 +1,71 @@
+{% include 'menu.html' %}
+<html>
+    <head>
+<title>🔬 Heimerdinger 🔬</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    </head>
+    <body>
+        
+<h1>🔬 Heimerdinger 🔬</h1>
+
+    <h2>
+Um inventor brilhante e excêntrico, conhecido por suas criações tecnológicas avançadas. Ele é um dos líderes da academia de Piltover e tem um papel importante na história.
+    </h2>
+<div class="heimerdinger card">
+<div class="galeria">
+     <div class="imagens">
+    <img src="https://i.pinimg.com/736x/e4/c3/4d/e4c34d7173f4cb33d7b93b5fa3118f4f.jpg"
+         alt="Heimerdinger"
+         width="200"
+         height="200">
+
+    <img src="https://i.pinimg.com/736x/74/4e/e3/744ee3107478edb938944101f20db3a1.jpg"
+         alt="Heimerdinger"
+         width="200"
+         height="200">
+     </div>
+</div>
+</div>
+<h1> Curiosidades </h1>
+
+<h2>Ele é um yordle, uma raça mágica que vive muito mais do que os humanos. </h2>
+<h2>Já viveu por centenas de anos, testemunhando guerras e tragédias antes dos acontecimentos de Arcane. </h2>
+<h2>Foi um dos fundadores de Piltover e ajudou a transformar a cidade em um centro científico. </h2>
+<h2>Ele era contra o uso irresponsável da Hextech, pois já tinha visto tecnologias causarem grandes desastres. </h2>
+    </body>
+  <style>
+    body {
+    background-image: url("https://w.wallhaven.cc/full/gp/wallhaven-gpyo3e.png");
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.card {
+    border: 3px solid white;
+    margin-bottom: 20px;
+   transition: 0.3s;
+   box-shadow: 0.4px 15px rgba(0, 0, 0, 0.5);
+}
+h2 {
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+.heimerdinger {
+     display: inline-block;
+     background-color: bisque;
+     padding: 10px;
+     border-radius:  8px;
+}
+  </style>
+</html>

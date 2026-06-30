@@ -1,0 +1,85 @@
+{% include 'menu.html' %}
+
+<html>
+<head>
+<title>🕰️ Ekko 🕰️ </title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+
+</head>
+<body>
+    
+<h1>🕰️ Ekko 🕰️  </h1>
+
+
+    <h2>
+        Ekko - Um jovem gênio da tecnologia de Zaun, conhecido por sua habilidade de
+        manipular o tempo. Ele é um personagem importante na série e tem uma história
+        intrigante.
+    </h2>
+<div class="ekko card">
+     <div class="galeria">
+     <div class="imagens">
+
+    <img src="https://i.pinimg.com/736x/76/34/ea/7634ea2ae222dec9a0191bfa615ff07a.jpg"
+         alt="Ekko"
+         width="200"
+         height="200">
+
+    <img src="https://i.pinimg.com/1200x/4d/ee/21/4dee216a6bde8ff2b89b07561aab2352.jpg"
+         alt="Ekko"
+         width="200"
+         height="200">
+     </div>
+     </div>
+</div>
+
+<h1>Curiosidades</h1>
+<h2>A Revo-Z: Sua invenção principal, construída com cristais hextec e sucata, permite manipular o tempo, rewindando o mundo em até 4 segundos (o limite seguro antes de causar anomalias graves).</h2>
+<h2>Seu nome real é desconhecido; o codinome vem do fenômeno do "eco". Ele foi identificado como XII (12) na gangue que compartilhava com Vi (VI) e Jinx (X)</h2>
+<h2> Usa uma pintura facial de ampulheta branca que simboliza Despertar, Certeza, Completude e Esperança, presente também nos anéis de seu cabelo. </h2>
+<h2> Combina a Revo-Z com um bastão feito de um ponteiro de relógio de torre de Zaun.</h2>
+</body>
+<style>
+h2 {
+     color:aliceblue;
+     font-family: 'Cinzel',serif;
+
+}
+body {
+    background-image: url("https://w.wallhaven.cc/full/gp/wallhaven-gpyo3e.png");
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.card {
+    border: 3px solid white;
+    margin-bottom: 20px;
+   transition: 0.3s;
+   box-shadow: 0.4px 15px rgba(0, 0, 0, 0.5);
+}
+.ekko {
+     display: inline-block;
+     background-color: #00FF88;
+    padding: 10px;
+    border-radius: 8px;
+}
+h2 {
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+</style>
+
+
+</html>

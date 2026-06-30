@@ -1,0 +1,74 @@
+{% include 'menu.html' %}
+<html>
+    <head>
+        <title> 🛠️ Jayce 🛠️ </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <h1>🛠️ Jayce 🛠️ </h1>
+        
+    <h2>
+        Jayce - Um inventor talentoso e ambicioso, conhecido por suas criações
+        tecnológicas inovadoras. Ele é um dos personagens principais da série e tem
+        um papel importante na história.
+    </h2>
+<div class="jayce card">
+     <div class="galeria">
+          <div class="imagens">
+    <img src="https://i.pinimg.com/736x/e2/4f/f3/e24ff34f1665e893dcdf102bc8d61cf2.jpg"
+         alt="Jayce"
+         width="200"
+         height="200">
+
+    <img src="https://i.pinimg.com/736x/20/1c/55/201c55b13701cfbde0aee78dd8473f29.jpg"
+         alt="Jayce"
+         width="200"
+         height="200">
+          </div>
+     </div>
+</div>
+<h1>Curiosidades </h1>
+
+<h2>Inventou o Martelo Hextech, que pode alternar entre um enorme martelo e um canhão de energia.</h2>
+<h2>Seu melhor amigo era Viktor, e juntos revolucionaram a tecnologia Hextech.</h2>
+<h2>Acabou entrando para o Conselho de Piltover, tornando-se um dos líderes da cidade. </h2>
+<h2>No League of Legends, ele é conhecido como "O Defensor do Amanhã", por usar sua tecnologia para proteger Piltover.</h2>
+</body>
+
+    <style>
+body {
+    background-image: url("https://w.wallhaven.cc/full/gp/wallhaven-gpyo3e.png");
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.card {
+    border: 3px solid white;
+    margin-bottom: 20px;
+   transition: 0.3s;
+   box-shadow: 0.4px 15px rgba(0, 0, 0, 0.5);
+}
+h2 {
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+.jayce {
+
+      display: inline-block;
+      background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+    </style>
+</html>

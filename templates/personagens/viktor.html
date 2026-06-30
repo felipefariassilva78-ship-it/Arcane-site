@@ -1,0 +1,70 @@
+{% include 'menu.html' %}
+<html>
+    <head>
+        <title>🧬 viktor 🧬  </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <h1> 🧬 viktor 🧬</h1>
+    <h2>
+        Viktor - Um cientista visionário, conhecido por sua busca por conhecimento e
+        poder. Ele é um dos antagonistas da série e tem uma história complexa.
+    <h2>
+<div class="viktor card">
+<div class="galeria">
+     <div class="imagens">
+    <img src="https://i.pinimg.com/736x/5e/d1/5a/5ed15a502a168ce033b0185a51f877b5.jpg"
+         alt="Viktor"
+         width="200"
+         height="200">
+
+    <img src="https://i.pinimg.com/736x/57/cd/53/57cd53f2639521f5a49435cd83d89804.jpg"
+         alt="Viktor"
+         width="200"
+         height="200">
+     </div>
+</div>
+</div>
+<h1>Curiosidades</h1>
+
+<h2> Foi o criador do Hexcore, um artefato que evolui constantemente e muda conforme absorve energia. </h2>
+<h2> Seu objetivo nunca foi dominar o mundo, mas sim eliminar o sofrimento humano através da tecnologia. </h2>
+<h2>Grande parte do seu corpo foi substituída por partes mecânicas por causa de sua doença. </h2>
+<h2>Era parceiro de pesquisas de Jayce, mas os dois acabaram seguindo ideologias completamente diferentes. </h2>
+    </body>
+    <style>
+.viktor {
+     display: inline-block;
+    background-color: #1837e2;
+    padding: 10px;
+    border-radius: 8px;
+}
+h2 {
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+.card {
+    border: 3px solid white;
+    margin-bottom: 20px;
+   transition: 0.3s;
+   box-shadow: 0.4px 15px rgba(0, 0, 0, 0.5);
+}
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+body {
+    background-image: url("https://w.wallhaven.cc/full/gp/wallhaven-gpyo3e.png");
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+    </style>
+</html>

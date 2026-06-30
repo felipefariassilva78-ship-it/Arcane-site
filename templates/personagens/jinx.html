@@ -1,0 +1,74 @@
+{% include 'menu.html' %}
+
+<html>
+<head>
+    <title>🤡 Jinx 🤡 </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<h1>🤡 Jinx 🤡</h1>
+
+<h2>
+    Jinx é uma criminosa caótica e imprevisível, conhecida por seu amor por explosivos e destruição. Ela é a irmã mais nova de Vi e tem um passado turbulento.
+</h2>
+<div class="jinx card">
+    <div class="galeria">
+        <div class="imagens">
+            <img src="https://i.pinimg.com/736x/b0/5a/01/b05a0102b952102378578fb5cdd4be7c.jpg">
+            <img src="https://i.pinimg.com/736x/02/af/d7/02afd72f5ed11c36a50f9b195c2dd421.jpg">
+        </div>
+    </div>
+</div>
+
+<h1> Curiosidades</h1>
+
+<h2> O termo "Jinx" significa literalmente "pessoa que traz azar", refletindo como ela foi vista por seus amigos de infância antes de se tornar a criminosa conhecida.</h2>
+
+<h2> Sua metralhadora se chama Pow-Pow, um apelido carinhoso que sua irmã Vi usava para chamá-la quando crianças.  O lança-mísseis é chamado Fishbones.</h2>
+
+<h2> A cor rosa permeia a mente de Jinx, representando sua conexão traumática com Vi.  Curiosamente, seus olhos mudam de azul para rosa em momentos de estresse severo ou violência extrema.</h2>
+
+<h2> Jinx é profundamente codependente.  Silco e Vi são suas âncoras emocionais; ela reage com violência quando se sente rejeitada, mas subconscientemente busca a aprovação de ambos.</h2>
+
+</body>
+<style>
+body {
+    background-image: url("https://w.wallhaven.cc/full/gp/wallhaven-gpyo3e.png");
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    border: 3px solid white;
+    margin-bottom: 20px;
+   transition: 0.3s;
+   box-shadow: 0.4px 15px rgba(0, 0, 0, 0.5);
+}
+.jinx {
+     display: inline-block;
+    background: rgba(0, 81, 233, 0.85);
+    padding: 10px;
+    border-radius: 8px;
+}
+h2 {
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+</style>
+
+</html>

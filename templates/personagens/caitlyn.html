@@ -1,0 +1,74 @@
+{% include 'menu.html' %}
+<html>
+
+<head>
+
+
+    <title> 👮‍♀️ Caitlyn 👮‍♀️</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+        <h1>👮‍♀️ Caitlyn 👮‍♀️</h1>
+
+    <h2>
+        Caitlyn - Uma detetive de Piltover, conhecida por sua inteligência e habilidades
+        de tiro. Ela é uma aliada de Vi e tem um papel importante na luta contra o crime
+        em Piltover.
+    </h2>
+<div class="caitlyn card">
+     <div class="galeria">
+     <div class="imagens">
+    <img src="https://i.pinimg.com/736x/25/ea/a5/25eaa533123e501a0718504f473be33b.jpg"
+         alt="Caitlyn"
+         width="200"
+         height="200">
+
+    <img src="https://i.pinimg.com/736x/d9/ed/54/d9ed54bf4ac46f6c10c7b155ab5fc8a3.jpg"
+         alt="Caitlyn"
+         width="200"
+         height="200">
+</div>
+     </div>
+</div>
+<h1>Curiosidades</h1>
+
+<h2>É considerada a melhor atiradora de Piltover, sendo famosa por nunca errar um disparo importante.</h2>
+<h2>Seu rifle foi criado com tecnologia Hextech, permitindo tiros extremamente precisos a longas distâncias. </h2>
+<h2>Em Arcane, ela desenvolve uma relação muito próxima com Vi, algo que já existia no universo de League of Legends. </h2>
+<h2>Ela pertence à poderosa família Kiramman, uma das famílias mais influentes e ricas de Piltover. </h2>
+</body>
+<style>
+body {
+    background-image: url("https://w.wallhaven.cc/full/gp/wallhaven-gpyo3e.png");
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.card {
+    border: 3px solid white;
+    margin-bottom: 20px;
+   transition: 0.3s;
+   box-shadow: 0.4px 15px rgba(0, 0, 0, 0.5);
+}
+h2 {
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+.caitlyn {
+     display: inline-block;
+     background-color: #1837e2;
+     padding: 10px;
+     border-radius: 8px;
+}
+</style>
+</html>
